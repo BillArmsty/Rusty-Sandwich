@@ -1,5 +1,3 @@
-//  Got inspiration from:
-// https://github.com/paradigmxyz/reth/blob/6d138daa1159ea92dc28a4e31d6be6a2f07ba565/crates/revm/revm-inspectors/src/access_list.rs
 use hashbrown::{ HashMap, HashSet };
 use revm::{
     interpreter::{ opcode, InstructionResult, Interpreter },
