@@ -10,3 +10,6 @@
 [submodule "huff/lib/v2-periphery"]
 	path = huff/lib/v2-periphery
 	url = https://github.com/Uniswap/v2-periphery
+[submodule "huff/lib/foundry-huff"]
+	path = huff/lib/foundry-huff
+	url = https://github.com/huff-language/foundry-huff
