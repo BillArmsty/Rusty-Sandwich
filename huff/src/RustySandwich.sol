@@ -3,6 +3,9 @@ pragma solidity ^0.8.13;
 
 
 import "v3-core/interfaces/IUniswapV3Pool.sol";
+import "v2-core/interfaces/IUniswapV2Pair.sol";
+import "../interfaces/IERC20.sol";
+
 
 contract RustySandwich  {
     using SafeMath for uint;
