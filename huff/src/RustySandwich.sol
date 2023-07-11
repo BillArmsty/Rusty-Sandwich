@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+
+import "v3-core/interfaces/IUniswapV3Pool.sol";
+
 contract RustySandwich  {
     using SafeMath for uint;
 
