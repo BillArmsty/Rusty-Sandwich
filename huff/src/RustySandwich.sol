@@ -5,6 +5,8 @@ pragma solidity ^0.8.13;
 import "v3-core/interfaces/IUniswapV3Pool.sol";
 import "v2-core/interfaces/IUniswapV2Pair.sol";
 import "../interfaces/IERC20.sol";
+import "v2-periphery/interfaces/IUniswapV2Router02.sol";
+
 
 
 contract RustySandwich  {
