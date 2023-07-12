@@ -148,23 +148,3 @@ async fn main() -> Result<()> {
     }
 }
 
-whwydj In going to type id in the terminal it says command not found and I have to type ./id to get it to work. How do I fix this?
-
-struct Foo {
-    bar: i32,
-}
-
-impl Foo {
-    fn new() -> Self {
-        Self { bar: 9 }
-    }
-
-    fn bar(&self) -> i32 {
-        self.bar
-    }
-}
-
-fn main() {
-    let foo = Foo::new();
-    println!("{}", foo.bar);
-}
