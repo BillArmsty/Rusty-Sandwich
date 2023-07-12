@@ -157,7 +157,8 @@ async fn get_all_pools(
     let current_block = current_block.as_number().unwrap().as_u64();
 
     // initialize the progress bar message
-    progress_bar.set_length(current_block - creation_block);
+    progress_bar.set_length(creation_block - current_block);
+    // progress_bar.set_length(current_block - creation_block);
     progress_bar.set_message(format!("Getting all pools from: {}", dex.factory_address));
 
     // init a new vec to keep track of tasks
